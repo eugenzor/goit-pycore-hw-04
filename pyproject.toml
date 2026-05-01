@@ -1,7 +1,7 @@
 [project]
 name = "goit-pycore-hw-04"
 version = "0.1.0"
-description = "Add your description here"
+description = "Тема 6. Домашня робота. Робота з файлами та модульна система"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
