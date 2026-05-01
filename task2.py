@@ -1,4 +1,5 @@
 from pathlib import Path
+from pprint import pprint
 
 CATS_FILE_PATH = "files/cats_file.txt"
 
@@ -37,7 +38,7 @@ def main() -> None:
         print(f"Не вдалося прочитати файл '{CATS_FILE_PATH}': {error}")
         return
 
-    print(cats_info)
+    pprint(cats_info, sort_dicts=False)
 
 
 if __name__ == "__main__":
