@@ -1,6 +1,6 @@
 from pathlib import Path
 
-SALARY_FILE_PATH = "salary_file.txt"
+SALARY_FILE_PATH = "files/salary_file.txt"
 
 
 def total_salary(path: str) -> tuple[int, float]:

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-CATS_FILE_PATH = "cats_file.txt"
+CATS_FILE_PATH = "files/cats_file.txt"
 
 
 def get_cats_info(path: str) -> list[dict]:
